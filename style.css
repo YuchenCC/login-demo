@@ -93,10 +93,8 @@ a:active{
     color: #ccc;
 }
 .login{
+    display: -webkit-flex;
     display: flex;
-    -webkit-box-pack: justify;
-    -moz-box-pack: justify;
-    -ms-flex-pack: justify;
     -webkit-justify-content: space-between;
     justify-content: space-between;
     align-items: center;
