@@ -43,7 +43,7 @@ a:active{
 #login{
     display: flex;
     justify-content: center;
-    align-items: center;
+
 
 }
 
@@ -95,6 +95,7 @@ a:active{
 .login{
     display: flex;
     justify-content: space-between;
+    webkit-justify-content: space-between;
     align-items: center;
     margin-top: 20px;
 }
@@ -106,7 +107,6 @@ a:active{
     -webkit-appearance: none;
     -webkit-border-radius: 0;
     border-radius: 4px;
-
     box-shadow: 0 5px 14px #4786FF;
 }
 
