@@ -47,7 +47,7 @@ a:active{
 }
 
 .name{
-    border: 1px solid #ccc;
+    border: 1x solid #ccc;
     margin: 10px auto;
     display: flex;
     border-radius: 4px;
@@ -60,9 +60,12 @@ a:active{
 }
 .name>input{
     line-height: 3em;
-    color: #ccc;
+    color: black;
     padding-left: 10px;
     padding-right: 10px;
+}
+.name>input::placeholder{
+    color: #ccc;
 }
 .password{
     border: 1px solid #ccc;
@@ -81,9 +84,12 @@ a:active{
 }
 .password>input{
     line-height: 3em;
-    color: #ccc;
+    color: black;
     padding-left: 10px;
     padding-right: 10px;
+}
+.password>input::placeholder{
+    color: #ccc;
 }
 .login{
     display: flex;
