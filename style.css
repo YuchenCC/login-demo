@@ -103,8 +103,10 @@ a:active{
     height: 40px;
     color: white;
     background: #4786FF;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
     border-radius: 4px;
-    -webkit-border-radius: 4px;
+
     box-shadow: 0 5px 14px #4786FF;
 }
 
