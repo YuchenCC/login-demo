@@ -23,7 +23,7 @@ a:active{
     color: #ccc;
 }
 #loginUI{
-    max-width: 400px;
+    max-width: 350px;
     height: 500px;
     background: white;
     box-shadow: 10px 10px 80px 1px #ddd;
@@ -39,12 +39,11 @@ a:active{
 .mainUI{
     margin:0 auto;
 
+
 }
 #login{
     display: flex;
     justify-content: center;
-
-
 }
 
 .name{
@@ -116,7 +115,7 @@ a:active{
     font-size: 12px;
 }
 .loginOther{
-    width:229px;
+    width:242px;
     margin: 0 auto;
     display: flex;
     border-radius: 4px;
