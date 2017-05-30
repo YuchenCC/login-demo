@@ -1,0 +1,148 @@
+*{
+    font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+input{
+    outline:none;
+    border: none;
+}
+a:link{
+    text-decoration:none;
+    color: #ccc;
+}
+a:visited{
+    text-decoration:none;
+    color: #ccc;
+}
+a:hover{
+    text-decoration:none;
+    color: #ccc;
+}
+a:active{
+    text-decoration:none;
+    color: #ccc;
+}
+#loginUI{
+    max-width: 400px;
+    height: 500px;
+    background: white;
+    box-shadow: 10px 10px 80px 1px #ddd;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+#loginUI>H1{
+    color: #4786FF;
+    padding-top: 40px;
+    padding-left: 10%;
+}
+
+.mainUI{
+    margin:0 auto;
+
+}
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.name{
+    border: 1px solid #ccc;
+    margin: 10px auto;
+    display: flex;
+    border-radius: 4px;
+}
+.name>div{
+    padding: 0 14px;
+    line-height: 3em;
+    border-right: 1px solid #ccc;
+    opacity: 0.3;
+}
+.name>input{
+    line-height: 3em;
+    color: #ccc;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.password{
+    border: 1px solid #ccc;
+    margin: 10px auto;
+    display: flex;
+    border-radius: 4px;
+}
+.password>div{
+    padding: 0 14px;
+    line-height: 3em;
+    border-right: 1px solid #ccc;
+    opacity: 0.3;
+}
+.password>div>img {
+    transform: translateY(3px);
+}
+.password>input{
+    line-height: 3em;
+    color: #ccc;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.login>input{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background: #4786FF;
+    border-radius: 4px;
+    box-shadow: 0 5px 14px #4786FF;
+}
+
+.line{
+    text-align: center;
+    margin: 20px auto;
+    color: #ccc;
+    font-size: 12px;
+}
+.loginOther{
+    width:229px;
+    margin: 0 auto;
+    display: flex;
+    border-radius: 4px;
+    border:1px solid  #4786FF;
+    color: white;
+    box-shadow: 0 3px 10px #4786FF;
+}
+.loginOther>span{
+
+    width: 48px;
+    height: 48px;
+    background: #3F74E7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.loginOther>div{
+    flex-grow: 1;
+    background: #4786FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.newID{
+    margin-top:40px;
+    font-size:12px;
+    color: #3F74E7;
+    margin-left:15%;
+}
+
+
+
+
+
+
